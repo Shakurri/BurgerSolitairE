@@ -12,15 +12,8 @@
 	<script src="https://cdn.jsdelivr.net/npm/jquery@3/dist/jquery.min.js"></script>
 	<script type="text/javascript" src="script.js"></script>
 	<script>
-      var unityInstance = UnityLoader.instantiate("unityContainer", "Build/last.json", {onProgress: UnityProgress,Module:{ TOTAL_STACK: 6*1024*1024}});
-      setInterval(function() {
-        var text = "";
-        for(var i = 0; i < 5*1024*1024 / 4; i++) {
-          text += "*";
-        }
-        gameInstance.SendMessage('MyGameObject', 'MyFunction', text);
-      }, 1000);
-    </script>
+      var unityInstance = UnityLoader.instantiate("unityContainer", "Build/last.json", {onProgress: UnityProgress,Module:{ TOTAL_STACK: 10*1024*1024}});
+          </script>
 
 </head>
 <body>
