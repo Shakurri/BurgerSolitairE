@@ -10,7 +10,7 @@ body{
     src:url('fonts/PixelMplus10-Regular.ttf');
 }
 .round{
-    border-radius: 5px;
+    border-radius: 20px;
 }
 
 .title{
@@ -29,7 +29,19 @@ body{
 	font-size: 30px;
 	color: gray;
 }
-
+.howtoButton{
+	position: fixed;
+	bottom:110px;
+	width:10vw;
+	margin:0 5vw 0 85vw;
+	height:70px;
+	background-color: white;
+	text-align: center:
+	color:#143265;
+	font-size: 50px;
+	width:10vw;
+	margin auto;
+}
 header{
 	width:100vw;
 	height:50px;
