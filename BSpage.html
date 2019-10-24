@@ -13,6 +13,13 @@
 	<script type="text/javascript" src="script.js"></script>
 	<script>
       var unityInstance = UnityLoader.instantiate("unityContainer", "Build/last.json", {onProgress: UnityProgress,Module:{ TOTAL_STACK: 6*1024*1024}});
+      setInterval(function() {
+        var text = "";
+        for(var i = 0; i < 5*1024*1024 / 4; i++) {
+          text += "*";
+        }
+        gameInstance.SendMessage('MyGameObject', 'MyFunction', text);
+      }, 1000);
     </script>
 
 </head>
@@ -22,7 +29,6 @@
 	<div class="webgl-content">
       <div id="unityContainer" style="width: 540px; height: 940px"></div>
       <div class="footer">
-        <div class="fullscreen" onclick="unityInstance.SetFullscreen(1)"></div>
       </div>
     </div>
 	<footer></footer>
