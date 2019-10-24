@@ -1,8 +1,46 @@
 body{
+	font-family: 'PixelMplus10-Regular';
     background-color: #143265;
     width:100vw;
     height:100vh;
 }
+
+@font-face {
+    font-family: 'PixelMplus10-Regular';
+    src:url('fonts/PixelMplus10-Regular.ttf');
+}
 .round{
     border-radius: 5px;
+}
+
+.title{
+	position: fixed;
+	top: 120px;
+	width:100vw;
+	text-align: center;
+	font-size: 70px;
+	color: white;
+}
+.caption{
+	position: fixed;
+	top: 70px;
+	width:100vw;
+	text-align: center;
+	font-size: 30px;
+	color: gray;
+}
+
+header{
+	width:100vw;
+	height:50px;
+	position: fixed;
+	top:0;
+	background-color: #4888b1;
+}
+footer{
+	width:100vw;
+	height:50px;
+	position: fixed;
+	background-color: #4888b1;
+	bottom:0;
 }
