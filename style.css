@@ -21,7 +21,7 @@ body{
 	font-size: 70px;
 	color: white;
 }
-.caption{
+.sub{
 	position: fixed;
 	top: 70px;
 	width:100vw;
@@ -32,15 +32,41 @@ body{
 .howtoButton{
 	position: fixed;
 	bottom:110px;
-	width:10vw;
-	margin:0 5vw 0 85vw;
-	height:70px;
-	background-color: white;
-	text-align: center:
-	color:#143265;
+	margin:0 5vw 0 80vw;
 	font-size: 50px;
-	width:10vw;
-	margin auto;
+	width:15vw;
+}
+.howtoButton:hover{
+	opacity: 0.7;
+}
+.caption{
+	width:100vw;
+	height:100vh;
+	position: fixed;
+	z-index: 100;
+	top:0;
+	background-color: #ebd45d44;
+	display: none;
+}
+.slider{
+	position: fixed;
+	top:150px;
+	opacity: 1.0;
+	width:80vw;
+	margin:auto;
+	display: none;
+}
+.slider img{
+	width:80vw;
+}
+.batu{
+	position: fixed;
+    top: 120px;
+    opacity: 0.8;
+    width: 65px;
+    right: 6vw;
+    z-index: 200;
+
 }
 header{
 	width:100vw;

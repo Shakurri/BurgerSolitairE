@@ -5,12 +5,15 @@
 	<title>BurgerSoritairE</title>
 	<link rel="stylesheet" href="ress.min.css">
 	<link rel="stylesheet" href="style.css">
+	<link href="slick-theme.css" rel="stylesheet" type="text/css">
+	<link href="slick.css" rel="stylesheet" type="text/css">
 	<link rel="shortcut icon" href="TemplateData/favicon.ico">
     <link rel="stylesheet" href="TemplateData/style.css">
     <script src="TemplateData/UnityProgress.js"></script>
     <script src="Build/UnityLoader.js"></script>
 	<script src="https://cdn.jsdelivr.net/npm/jquery@3/dist/jquery.min.js"></script>
 	<script type="text/javascript" src="script.js"></script>
+	<script type="text/javascript" src="slick.min.js"></script>
 	<script>
       var unityInstance = UnityLoader.instantiate("unityContainer", "Build/last.json", {onProgress: UnityProgress,Module:{ TOTAL_STACK: 10*1024*1024}});
           </script>
@@ -18,16 +21,29 @@
 </head>
 <body>
 	<header></header>
-	<p class="caption">1人であそぶ役作りゲーム</p>
+	<p class="sub">1人であそぶ役作りゲーム</p>
 	<p class="title">[ BurgerSolitairE ]</p>
 	<div class="webgl-content">
       <div id="unityContainer" style="width: 540px; height: 940px"></div>
       <div class="footer">
       </div>
     </div>
-    <span class="howtoButton round">
-    	???
-    </span>
+    <img src="image/htpB.png" class="howtoButton">
+    <div class="caption">
+    	<img src="image/batu.png" class="batu">
+    <ul class="slider">
+    		<li><a href="#"><img src="image/1.jpg" alt="image01"></a></li>
+		    <li><a href="#"><img src="image/2.jpg" alt="image01"></a></li>
+		    <li><a href="#"><img src="image/3.jpg" alt="image02"></a></li>
+		    <li><a href="#"><img src="image/4.jpg" alt="image03"></a></li>
+		    <li><a href="#"><img src="image/5.jpg" alt="image04"></a></li>
+		    <li><a href="#"><img src="image/6.jpg" alt="image05"></a></li>
+		    <li><a href="#"><img src="image/7.jpg" alt="image06"></a></li>
+		    <li><a href="#"><img src="image/8.jpg" alt="image06"></a></li>
+		    <li><a href="#"><img src="image/9.jpg" alt="image06"></a></li>
+		    <li><a href="#"><img src="image/10.jpg" alt="image06"></a></li>
+		</ul>
+	</div>
 	<footer></footer>
 </body>
 </html>
