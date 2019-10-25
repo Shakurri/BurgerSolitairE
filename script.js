@@ -15,6 +15,7 @@ $(function(){
   	}
   	$('.caption').fadeIn(500);
   	$('.slider').fadeIn(1000);
+  	$('.batu').fadeIn(1000);
   });
   $('.batu').on('touchstart',function () {
   	$('.caption').fadeOut(1000);
